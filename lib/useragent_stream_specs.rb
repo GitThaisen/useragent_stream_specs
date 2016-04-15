@@ -1,8 +1,7 @@
 module UseragentStreamSpecs
 
   unless defined? USER_AGENTS
-    USER_AGENTS =
-    {
+    USER_AGENTS = {
       'ie11, windows 10' => {
         :device => 'desktop',
         :player_id => 'flash',
@@ -285,9 +284,7 @@ module UseragentStreamSpecs
         :user_agent                    => 'Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) kazoku/0.2 Safari/538.1 (ADB; TNR-5720SX)',
         :default_player_settings_tv    => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
         :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
-      },
-
-        }
-
-    end
+    },
+    }
   end
+end
