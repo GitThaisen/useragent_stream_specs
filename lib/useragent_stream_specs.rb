@@ -284,7 +284,32 @@ module UseragentStreamSpecs
         :user_agent                    => 'Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) kazoku/0.2 Safari/538.1 (ADB; TNR-5720SX)',
         :default_player_settings_tv    => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
         :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
-    },
+      },
+      'Nokia_lumia'        => {
+        :device                        => 'mobile',
+        :player_id                     => 'flash',
+        :user_agent                    => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)',
+        :default_player_settings_tv    => {'preferred-player-odm'  => 'w8app',
+          'preferred-player-live' => 'w8app',
+          'bitrate'               => '3500 kbps'},
+        :default_player_settings_radio => {'preferred-player-odm'  => 'w8app',
+          'preferred-player-live' => 'w8app',
+          'bitrate'               => '3500 kbps'}
+      },
+      'Nokia_symbian'      => {
+        :device                        => 'mobile',
+        :player_id                     => 'flash',
+        :user_agent                    => 'Mozilla/5.0 (SymbianOS/9.1; U; [en-us]) AppleWebKit/413 (KHTML, like Gecko) Safari/413',
+        :default_player_settings_tv    => {'preferred-player-odm' => 'flash', 'preferred-player-live' => 'flash', 'bitrate' => '3500 kbps'},
+        :default_player_settings_radio => {'preferred-player-odm' => 'flash', 'preferred-player-live' => 'flash', 'bitrate' => '3500 kbps'}
+      },
+      'Z2'      => {
+      :device                        => 'mobile',
+      :player_id                     => 'androidapp',
+      :user_agent                    => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
+      :default_player_settings_tv    => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'},
+      :default_player_settings_radio => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'}
+      }
     }
   end
 end
