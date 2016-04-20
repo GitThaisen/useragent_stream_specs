@@ -22,7 +22,7 @@ Or install it yourself as:
 
 In your own ruby code, add:
 
-include UseragentsStreamSpecs
+include UseragentStreamSpecs
 
 You'll now have the hash 'USER_AGENTS' at hand. We use this to verify that different player clients get a proper stream type from our API.
 
