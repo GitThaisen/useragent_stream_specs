@@ -194,8 +194,8 @@
       "bitrate": "3500 kbps"
     },
     "default_player_settings_radio": {
-      "preferred-player-odm": "hls",
-      "preferred-player-live": "hls",
+      "preferred-player-odm": "androidapp",
+      "preferred-player-live": "androidapp",
       "bitrate": "3500 kbps"
     }
   },
@@ -209,8 +209,8 @@
       "bitrate": "3500 kbps"
     },
     "default_player_settings_radio": {
-      "preferred-player-odm": "hls",
-      "preferred-player-live": "hls",
+      "preferred-player-odm": "androidapp",
+      "preferred-player-live": "androidapp",
       "bitrate": "3500 kbps"
     }
   },
