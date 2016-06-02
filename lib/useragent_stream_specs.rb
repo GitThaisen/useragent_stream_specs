@@ -58,7 +58,7 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -66,7 +66,7 @@ module UseragentStreamSpecs
             :device => 'mobile',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0 (iPhone; iOS 9.2; mobile; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -74,7 +74,7 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0 (iPhone; iOS 9.2; tablet; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -82,7 +82,7 @@ module UseragentStreamSpecs
             :device => 'appletv',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0 (iPhone; iOS 9.2; appletv; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -90,7 +90,7 @@ module UseragentStreamSpecs
             :device => 'tvapp',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0 (iPhone; iOS 9.2; tv; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -98,7 +98,7 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'NRK TV/1.3.14 (samsung sm-t810; Android 21; tablet; Scale/2.0)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'}
         },
 
@@ -106,7 +106,7 @@ module UseragentStreamSpecs
             :device => 'tv',
             :player_id => 'hls',
             :user_agent => 'NRK TV/1.3.18 (asus nexus player; Android 23; tv; Scale/2.0)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'}
         },
 
@@ -114,7 +114,7 @@ module UseragentStreamSpecs
             :device => 'mobile',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0_beta (iPhone; iOS 9.2; mobile; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -122,7 +122,7 @@ module UseragentStreamSpecs
             :device => 'appletv',
             :player_id => 'hls',
             :user_agent => 'iTunes-AppleTV%2F6.1.1+(3%3B+8GB%3B+dt%3A12))',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -130,7 +130,7 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -275,70 +275,70 @@ module UseragentStreamSpecs
             :device => 'playstation4',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (PlayStation 4 1.51) AppleWebKit/536.26 (KHTML, like Gecko)',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'ChromeCast' => {
             :device => 'chromecast',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (CrKey armv7l 1.8.17977) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'sonySmartTV' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => 'SonyCEBrowser',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'sonySmartTVlongua' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => 'Opera/9.80 (Linux mips; U; Model/Sony-KDL-40HX755 SonyCEBrowser/1.0 (KDL-40HX755; CTV/1. 0; GBR; en); en) Presto/2.10.250 Version/11.60',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'TV' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV) AppleWebKit/531.2+ (KHTML, like Gecko) WebBrowser/1.0 SmartTV Safari/531.2+',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'RiksTV' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (Linux) AppleWebKit/536.28 (KHTML, like Gecko) Ekioh/2.2.8.2 Safari/536.28',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'CD1' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (QtEmbedded; Linux), ADB STB-Uni/5.6 (ADB, L28YTNRA, )',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'CD2' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => ' Mozilla/5.0 (QtEmbedded; Linux), ADB STB-Uni/15.1 (ADB, K01XCDSB, )',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'CD3' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) kazoku/0.2 Safari/538.1 (ADB; TNR-2850ST)',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'CD4' => {
             :device => 'smart-tv',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) kazoku/0.2 Safari/538.1 (ADB; TNR-5720SX)',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
         'Nokia_lumia' => {
