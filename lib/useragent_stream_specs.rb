@@ -352,6 +352,28 @@ module UseragentStreamSpecs
                                                'preferred-player-live' => 'w8app',
                                                'bitrate' => '3500 kbps'}
         },
+        'Windows_Phone_8.1' => {
+            :device => 'mobile',
+            :player_id => 'flash',
+            :user_agent => 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537',
+            :default_player_settings_tv => {'preferred-player-odm' => 'w8app',
+                                            'preferred-player-live' => 'w8app',
+                                            'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'w8app',
+                                               'preferred-player-live' => 'w8app',
+                                               'bitrate' => '3500 kbps'}
+        },
+        'Windows_Phone_10' => {
+            :device => 'mobile',
+            :player_id => 'flash',
+            :user_agent => 'Windows Mobile 10: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586',
+            :default_player_settings_tv => {'preferred-player-odm' => 'w8app',
+                                            'preferred-player-live' => 'w8app',
+                                            'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'w8app',
+                                               'preferred-player-live' => 'w8app',
+                                               'bitrate' => '3500 kbps'}
+        },
         'Nokia_symbian' => {
             :device => 'mobile',
             :player_id => 'flash',

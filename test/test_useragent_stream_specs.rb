@@ -2,10 +2,11 @@ require 'useragent_stream_specs'
 require 'json'
 gem "minitest"
 require 'minitest/autorun'
+require 'minitest/spec'
 
 include UseragentStreamSpecs
 
-class UseragentStreamSpecsTest < Minitest::Test
+class UseragentStreamSpecsTest < Minitest::Spec
   def test_all_agents_have_a_device
     puts "The USER_AGENTS contains streaming specifications for these platforms: #{USER_AGENTS.keys}."
     USER_AGENTS.keys.each do |platform|
