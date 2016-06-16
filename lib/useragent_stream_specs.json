@@ -670,7 +670,7 @@
     "user_agent": "Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)",
     "default_player_settings_tv": {
       "preferred-player-odm": "w8app",
-      "preferred-player-live": "w8app",
+      "preferred-player-live": "w8app_backup",
       "bitrate": "3500 kbps"
     },
     "default_player_settings_radio": {
