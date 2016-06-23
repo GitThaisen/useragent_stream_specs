@@ -214,10 +214,25 @@
       "bitrate": "3500 kbps"
     }
   },
-  "iosoriginbeta": {
+  "iosoriginbetamobile": {
     "device": "mobile",
     "player_id": "hls",
     "user_agent": "NRK TV/4.5.0_beta (iPhone; iOS 9.2; mobile; Scale/3.00)_app_",
+    "default_player_settings_tv": {
+      "preferred-player-odm": "hls",
+      "preferred-player-live": "hlscedexis",
+      "bitrate": "3500 kbps"
+    },
+    "default_player_settings_radio": {
+      "preferred-player-odm": "hls",
+      "preferred-player-live": "hls",
+      "bitrate": "3500 kbps"
+    }
+  },
+  "iosoriginbetatablet": {
+    "device": "mobile",
+    "player_id": "hls",
+    "user_agent": "NRK TV/4.5.0_beta (iPhone; iOS 9.2; tablet; Scale/3.00)_app_",
     "default_player_settings_tv": {
       "preferred-player-odm": "hls",
       "preferred-player-live": "hlscedexis",
