@@ -102,6 +102,22 @@ module UseragentStreamSpecs
             :default_player_settings_radio => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'}
         },
 
+        'androidapptabletbeta' => {
+            :device => 'tablet',
+            :player_id => 'hls',
+            :user_agent => 'NRK TV/1.3.14_beta (samsung sm-t810; Android 21; tablet; Scale/2.0)_app_',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'}
+        },
+
+        'androidappmobilebeta' => {
+            :device => 'tablet',
+            :player_id => 'hls',
+            :user_agent => 'NRK TV/1.3.14_beta (samsung sm-t810; Android 21; mobile; Scale/2.0)_app_',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'}
+        },
+
         'asustv' => {
             :device => 'tv',
             :player_id => 'hls',
