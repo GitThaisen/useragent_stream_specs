@@ -58,7 +58,7 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A523 Safari/8536.25',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -66,7 +66,7 @@ module UseragentStreamSpecs
             :device => 'mobile',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0 (iPhone; iOS 9.2; mobile; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -74,7 +74,7 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0 (iPhone; iOS 9.2; tablet; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -82,7 +82,7 @@ module UseragentStreamSpecs
             :device => 'appletv',
             :player_id => 'hls',
             :user_agent => 'NRK TV/4.5.0 (iPhone; iOS 9.2; appletv; Scale/3.00)_app_',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -148,7 +148,7 @@ module UseragentStreamSpecs
             :device => 'appletv',
             :player_id => 'hls',
             :user_agent => 'iTunes-AppleTV%2F6.1.1+(3%3B+8GB%3B+dt%3A12))',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -156,7 +156,7 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'},
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         },
 
@@ -372,7 +372,7 @@ module UseragentStreamSpecs
             :player_id => 'flash',
             :user_agent => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)',
             :default_player_settings_tv => {'preferred-player-odm' => 'w8app',
-                                            'preferred-player-live' => 'w8app_backup',
+                                            'preferred-player-live' => 'w8app_cedexis',
                                             'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'w8app',
                                                'preferred-player-live' => 'w8app',
@@ -383,7 +383,7 @@ module UseragentStreamSpecs
             :player_id => 'flash',
             :user_agent => 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537',
             :default_player_settings_tv => {'preferred-player-odm' => 'w8app',
-                                            'preferred-player-live' => 'w8app_backup',
+                                            'preferred-player-live' => 'w8app_cedexis',
                                             'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'w8app',
                                                'preferred-player-live' => 'w8app',
@@ -394,7 +394,7 @@ module UseragentStreamSpecs
             :player_id => 'flash',
             :user_agent => 'Windows Mobile 10: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Mobile Safari/537.36 Edge/13.10586',
             :default_player_settings_tv => {'preferred-player-odm' => 'w8app',
-                                            'preferred-player-live' => 'w8app_backup',
+                                            'preferred-player-live' => 'w8app_cedexis',
                                             'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'w8app',
                                                'preferred-player-live' => 'w8app',
