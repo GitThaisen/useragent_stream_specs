@@ -2,8 +2,8 @@
 
 Gem::Specification.new do |s|
   s.name        = 'useragent_stream_specs'
-  s.version     = '1.0.11'
-  s.date        = '2016-09-21'
+  s.version     = '1.0.12'
+  s.date        = '2016-10-10'
   s.summary     = "A specification of what stream types different clients use."
   s.description = "A specification of what stream types different clients use. The hash is intended used as reference for tests."
   s.authors     = ["Aril Spetalen", "Magnus de Laval"]
