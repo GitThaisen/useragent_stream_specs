@@ -413,6 +413,20 @@ module UseragentStreamSpecs
             :user_agent => 'Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',
             :default_player_settings_tv => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'androidapp', 'preferred-player-live' => 'androidapp', 'bitrate' => '3500 kbps'}
+        },
+        'Samsung_radio' => {
+            :device => 'tablet',
+            :player_id => 'hls',
+            :user_agent => 'NRK Radio Android tablet: NRK Radio/1.3.14 (samsung sm-t810; Android 21; tablet; Scale/2.0)_app_',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
+        },
+        'iPhone_radio' => {
+            :device => 'tablet',
+            :player_id => 'hls',
+            :user_agent => 'NRK Radio Android tablet: NRK Radio/1.3.14 (samsung sm-t810; Android 21; tablet; Scale/2.0)_app_',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hls', 'bitrate' => '3500 kbps'}
         }
     }
   end
