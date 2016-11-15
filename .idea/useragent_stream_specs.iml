@@ -5,11 +5,7 @@
   </component>
   <component name="FacetManager">
     <facet type="gem" name="Ruby Gem">
-      <configuration>
-        <option name="GEM_APP_ROOT_PATH" value="$MODULE_DIR$" />
-        <option name="GEM_APP_TEST_PATH" value="$MODULE_DIR$/test" />
-        <option name="GEM_APP_LIB_PATH" value="$MODULE_DIR$/lib" />
-      </configuration>
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager">
@@ -22,7 +18,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.3, RVM: ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.8.0, RVM: ruby-2.0.0-p247) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v11.1.2, RVM: ruby-2.0.0-p247) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="useragent_stream_specs (v1.0.1, RVM: ruby-2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v11.2.2, RVM: ruby-2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="useragent_stream_specs (v1.0.10, RVM: ruby-2.0.0-p247) [gem]" level="application" />
   </component>
 </module>
