@@ -86,6 +86,14 @@ module UseragentStreamSpecs
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
         },
 
+        'tvOS' => {
+            :device => 'appletv',
+            :player_id => 'hls',
+            :user_agent => 'NRK-TV-tvOS/10 CFNetwork/810.2.9 Darwin/16.3.0',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'flash', 'preferred-player-live' => 'flash', 'bitrate' => '3500 kbps'}
+        },
+
         'appletvapp3' => {
             :device => 'tvapp',
             :player_id => 'hls',
