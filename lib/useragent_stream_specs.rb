@@ -78,6 +78,17 @@ module UseragentStreamSpecs
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
         },
 
+        #{App-versjonsnummer} (iOS 11.3; tablet; Scale/ 2.0)app
+        #UA for mobil: NRK TV/{App-versjonsnummer}
+
+        'iphoneapp50X' => {
+            :device => 'mobile',
+            :player_id => 'hls',
+            :user_agent => 'NRK TV/5.0.0 (iOS 11.3; mobile; Scale/3.00)app',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
+        },
+
         'iphoneapp43radio' => {
             :device => 'mobile',
             :player_id => 'hls',
@@ -90,6 +101,14 @@ module UseragentStreamSpecs
             :device => 'mobile',
             :player_id => 'hls',
             :user_agent => 'NRK-Super/2.6.4 (iOS 10.2; mobile; Scale/2.00)app',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
+        },
+
+        'iphoneapp29super' => {
+            :device => 'mobile',
+            :player_id => 'hls',
+            :user_agent => 'NRK-Super/2.9.12 (iOS 11.4; mobile; Scale/3.00)app',
             :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
         },
@@ -118,6 +137,14 @@ module UseragentStreamSpecs
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
         },
 
+        'ipadapp50X' => {
+            :device => 'tablet',
+            :player_id => 'hls',
+            :user_agent => 'NRK TV/5.0.0 (iOS 11.3; tablet; Scale/2.00)app',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
+        },
+
         'ipadapp43radio' => {
             :device => 'tablet',
             :player_id => 'hls',
@@ -130,6 +157,14 @@ module UseragentStreamSpecs
             :device => 'tablet',
             :player_id => 'hls',
             :user_agent => 'NRK-Super/2.6.4 (iOS 10.2; tablet; Scale/2.00)app',
+            :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
+            :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
+        },
+
+        'ipadapp29super' => {
+            :device => 'tablet',
+            :player_id => 'hls',
+            :user_agent => 'NRK-Super/2.9.12 (iOS 10.3.2; tablet; Scale/2.00)app',
             :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
         },
