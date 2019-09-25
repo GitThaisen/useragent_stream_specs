@@ -430,28 +430,20 @@ module UseragentStreamSpecs
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'}
         },
 
-        'ChromeCast' => {
-            :device => 'chromecast',
-            :player_id => 'hls',
-            :user_agent => 'Mozilla/5.0 (CrKey armv7l 1.8.17977) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36',
-            :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
-            :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'}
-        },
         'ChromeCastGen1' => {
             :device => 'chromecast',
             :player_id => 'hls',
-            :user_agent => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.120 Safari/537.36 CrKey/1.32.141268',
+            :user_agent => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.120 Safari/537.36 CrKey/1.36.159268',
             :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'}
         },
-        'ChromeCastGen2' => {
+        'ChromeCast' => {
             :device => 'chromecast',
             :player_id => 'hls',
-            :user_agent => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.47 Safari/537.36 CrKey/1.36.141427',
+            :user_agent => 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.47 Safari/537.36 CrKey/1.42.172094',
             :default_player_settings_tv => {'preferred-player-odm' => 'hlscedexis', 'preferred-player-live' => 'hlscedexis', 'bitrate' => '3500 kbps'},
             :default_player_settings_radio => {'preferred-player-odm' => 'hls', 'preferred-player-live' => 'hlsbackup', 'bitrate' => '3500 kbps'}
         },
-
         'ChromeCastOld1' => {
             :device => 'chromecast',
             :player_id => 'hls',
